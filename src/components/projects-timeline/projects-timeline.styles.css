@@ -4,12 +4,11 @@
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 14px;
-  background-color: rebeccapurple;
-  border: none;
+  background-color: rgb(14 14 13 / 64%);
   border-radius: 4px;
-
   padding: 10px;
   color: #fff;
+
 }
 
 .list-styles {
@@ -19,3 +18,4 @@
 .image-style1 {
   width: 3em;
 }
+

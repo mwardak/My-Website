@@ -7,17 +7,18 @@ const MyTitleMessage = styled.h1`
   width: 100%;
   top: 22rem;
   z-index: 1;
-  margin-top: -125px;
+  margin-top: -150px;
   text-align: center;
 
   strong {
-    font-size: 1.25em;
+    font-size: 1.7em;
+    font-family:'Roboto', serif; font-weight: bold; 
   }
   div {
-    color: ${props => props.theme.textColor};
+    color: #2348ff;
 
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
-    font-weight: 100;
+    font-weight: bold;
     letter-spacing: 7px;
 
     .main {
@@ -36,19 +37,19 @@ const TitleMessage = () => (
     <div className="titleMessage">
       <div className="heading">
         <div className="main text-center mb-3">
-          Hi, I am
+          
           <br />
           <span>
-            <strong>Anand Kumar Jha</strong>
+            <strong>Maher Wardak</strong>
           </span>
         </div>
         <div className="sub">
           <Typewriter
             options={{
-              strings: ["Web Developer", "Coach", "Learner"],
+              strings: ["Full Stack Developer","Ready To Join Your Team"],
               autoStart: true,
               loop: true,
-              delay: 50
+              delay: 60
             }}
           />
         </div>
