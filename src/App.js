@@ -18,6 +18,7 @@ import FooterPanel from "./components/footer/footer.component";
 import "./App.css";
 
 const App = () => {
+  console.log("Changes Updates")
   return (
     <div className="App" style={{ position: "relative" }}>
       <MyCarousal />
