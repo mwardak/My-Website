@@ -6,7 +6,7 @@ import "./about.styles.css";
 
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
-import image1 from "../../assets/img/profile/image1.webp";
+import maher from "../../assets/img/profile/maher.jpeg";
 
 const About = () => {
   return (
@@ -18,7 +18,7 @@ const About = () => {
           <Row className="pt-3 pb-5 align-items-center">
             <Col xs={12} md={6}>
               <Row className="justify-content-center mb-2 mr-2 ">
-                <Image className="profile justify-content-end" alt="profile" src={image1}  thumbnail fluid />
+                <Image className="profile justify-content-end" alt="profile" src={maher}  thumbnail fluid />
               </Row>
             </Col>
             <Col xs={12} md={6}>
@@ -30,10 +30,14 @@ const About = () => {
                 <br />
                  Front-end is where I began but was quickly drawn into full-stack because I wanted to understand how an application is built in its entirety. 
                 
-                 Fast-forward to present day, I built several applications and have broadened my knowlege of web applications. This has propelled me to continue building. 
-                <br />
+                 Fast-forward to present day, I built several applications and have broadened my knowlege of web applications. 
                  
-                <br /> <br />
+                 The sense of fulfillment that I get when I solve a problem or create a new web app is unmatched and has propelled me to continue building.
+                 I hope to one day become a valuable contributor to a team that emphasizes teamwork, as well as individual growth.
+                <br />
+ 
+                <br />
+
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">
