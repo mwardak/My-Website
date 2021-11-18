@@ -7,7 +7,7 @@ import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import L_ExpenseTracker from "../../assets/img/projects/Expense_Tracker.webp";
 import L_StarWars from "../../assets/img/projects/starwars.webp";
-import L_Calculator from "../../assets/img/projects/Calculator.jpg";
+import L_Calculator from "../../assets/img/projects/Calculator.webp";
 import L_Chat from "../../assets/img/projects/Chat.webp";
 import L_Todo from "../../assets/img/projects/todo.webp";
 
@@ -57,9 +57,18 @@ const TimeLine = () => {
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Register new user</li>
-                          <li>Login exiting user</li>
-                          <li>Chat with multiple users</li>
+                          <li>
+                            A full-stack chat application where users can
+                            register for free and start chatting
+                          </li>
+                          <li>
+                            Built with React, Node JS, Express JS and PSQL
+                          </li>
+                          <li>
+                            RESTful API and server-side user authentication with
+                            JWT and Bcrypt
+                          </li>
+                          <li>Unit testing with Jest </li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -158,8 +167,15 @@ const TimeLine = () => {
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Search characters by name</li>
-                          <li>Search characters by pages</li>
+                          <li>
+                            Search Star Wars characters individually or browse
+                            pages
+                          </li>
+                          <li>Built with React and Bootstrap for styling</li>
+                          <li>
+                            Fetches Data from a third party using RESTful API
+                            best practices
+                          </li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -236,14 +252,18 @@ const TimeLine = () => {
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Enter a task</li>
+                          <li>Manage daily/weekly tasks</li>
                           <li>
-                            Cross out a completed task by selecting the checkbox
+                            Remove a completed task by selecting the checkbox
+                            and clicking the trash icon
                           </li>
-                          <li>Remove the crossed out task from the list</li>
                           <li>
-                            Local storage implemented to store all incomplete
+                            Local storage implemented to store all incompleted
                             tasks
+                          </li>
+                          <li>
+                            Built with functional components and hooks to manage
+                            state
                           </li>
                         </ul>
                         <hr />
@@ -323,9 +343,16 @@ const TimeLine = () => {
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Add detailed transactions</li>
-                          <li>Remove transactions</li>
-                          <li>Responsive Design</li>
+                          <li>
+                            Add detailed transactions that includes item,
+                            amount, payment type, and date{" "}
+                          </li>
+                          <li>
+                            Remove transactions by selecting the checkbox and
+                            deleting them
+                          </li>
+                          <li>Built with class components</li>
+                          <li>Bootstrap for styling and responsive design</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -338,7 +365,7 @@ const TimeLine = () => {
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              HTML5
+                              React
                             </span>
                           </li>
                           <li>
@@ -349,7 +376,7 @@ const TimeLine = () => {
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              CSS3
+                              Bootstrap
                             </span>
                           </li>
                         </ul>
@@ -401,8 +428,8 @@ const TimeLine = () => {
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
                         <strong>Description:</strong> This is a Calculator that
-                        supports simple operations such as
-                        additon,multiplication,division,subtraction.
+                        supports simple operations such as additon, subtraction,
+                        multiplication, and division.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
