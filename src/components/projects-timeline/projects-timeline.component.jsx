@@ -163,7 +163,7 @@ const TimeLine = () => {
                       <Card.Body>
                         <strong>Description:</strong> This app displays Star
                         Wars character data. You can search by character or sift
-                        through pages. Each page displays 10 charaters.
+                        through pages. Each page displays 10 characters.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
