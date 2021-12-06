@@ -68,7 +68,7 @@ const TimeLine = () => {
                             RESTful API and server-side user authentication with
                             JWT and Bcrypt
                           </li>
-                          <li>Unit testing with Jest </li>
+                          <li>UI design with Bootstrap</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
